@@ -1,16 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <title>Build your own ChatBot</title>
+    <style>
+      .chatbot {
+        color: rgb(0, 0, 0, 1);
+        width: 350px;
+        height: 350px;
+        margin: auto;
+        padding: 10px;
+        border: 1px solid gainsboro;
+        border-radius: 2px;
+      }
+      .chatbot h2 {
+        font-weight: 100;
+        font-family: sans-serif;
+      }
+      .chatbot hr {
+        width: 100px;
+        color: rgb(0, 0, 0, 1);
+        margin-left: 0px;
+      }
+      #button {
+        color: white;
+        background-color: #4184e1;
+        text-align: center;
+        padding: 5px;
+        margin: auto;
+        width: 200px;
+        border-radius: 30px;
+        font-weight: 100px;
+      }
+    </style>
   </head>
   <body>
-    <article>
+    <article class="chatbot">
       <h2>Build your first chatbot in 10 minutes!</h2>
-      <p>
+      <p id="message">
         Have a bot answering questions from customers on your website within 10
         minutes of signing up for ChatBot.
       </p>
-      <p>TRY NOW -></p>
+      <p id="button">TRY NOW --&gt;</p>
       <footer>
         <p>
           By clicking try now you create an account and agree to our Terms and
